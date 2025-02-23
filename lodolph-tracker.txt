@@ -6,5 +6,5 @@ TODO:
 [X] looging (auch wenn nichts passiert)
 [ ] make messages prettier (use embed)
 [ ] dynamically link to portfolio
-[ ] make channel_id ect customizable via env
+[X] make channel_id ect customizable via env
 [ ] docker container
