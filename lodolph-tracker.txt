@@ -2,7 +2,7 @@ TODO:
 
 [ ] ticker symbol hinter gekauften/verkauften stocks schreiben (touple oder Klassen)
 [ ] bessere speicherung der Daten (sqlite)
-[ ]env datei für credentials
+[X] env datei für credentials
 [X] looging (auch wenn nichts passiert)
 [ ] make messages prettier (use embed)
 [ ] dynamically link to portfolio

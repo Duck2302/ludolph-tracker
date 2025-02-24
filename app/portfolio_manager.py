@@ -15,7 +15,7 @@ async def get_portfolio_updates():
 
 
     # Load the companies from the JSON file
-    with open('companies.json', 'r') as f:
+    with open('./data/companies.json', 'r') as f:
         companies_from_file = json.load(f)
 
 
@@ -25,7 +25,7 @@ async def get_portfolio_updates():
 
 
 
-    with open('companies.json', 'w') as f:
+    with open('./data/companies.json', 'w') as f:
         json.dump({"companies": request_companies}, f)
 
     return bought_stocks,sold_stocks

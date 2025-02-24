@@ -1,0 +1,12 @@
+name: ludolph-tracker
+services:
+  discord-bot:
+    image: test
+    restart: unless-stopped
+    volumes:
+      - ludolph_tracker_data:/app/data/
+    env_file:
+      - .env
+
+volumes:
+  ludolph_tracker_data:

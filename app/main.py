@@ -19,7 +19,7 @@ client = discord.Client(intents=intents)
 async def send_portfolio_updates():
     """Fetch portfolio updates and send them as a message every 5 minutes."""
     await client.wait_until_ready()
-    channel = client.get_channel(CHANNEL_ID)
+    channel = client.get_channel(int(CHANNEL_ID))
 
     while not client.is_closed():
         bought_stocks, sold_stocks = await get_portfolio_updates()
