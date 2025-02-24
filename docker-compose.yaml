@@ -1,7 +1,7 @@
 name: ludolph-tracker
 services:
   ludolph-tracker:
-    image: ludolph-tracker:latest
+    image: leduck/ludolph-tracker:latest
     restart: unless-stopped
     volumes:
       - data:/app/data/
