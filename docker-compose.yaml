@@ -4,9 +4,9 @@ services:
     image: ludolph-tracker:latest
     restart: unless-stopped
     volumes:
-      - ludolph_tracker_data:/app/data/
+      - data:/app/data/
     env_file:
       - .env
 
 volumes:
-  ludolph_tracker_data:
+  data:
