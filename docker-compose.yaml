@@ -1,6 +1,6 @@
 name: ludolph-tracker
 services:
-  discord-bot:
+  ludolph-tracker:
     image: ludolph-tracker:latest
     restart: unless-stopped
     volumes:
