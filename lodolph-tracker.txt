@@ -7,4 +7,4 @@ TODO:
 [ ] make messages prettier (use embed)
 [ ] dynamically link to portfolio
 [X] make channel_id ect customizable via env
-[ ] docker container
+[X] docker container(and docker-compose cause easier)
